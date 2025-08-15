@@ -10,8 +10,8 @@ import types
 import warnings
 from importlib.metadata import PackageNotFoundError, version
 
-from . import database, j1939, logreader, tester
-from .errors import Error
+from cantools import database, j1939, logreader, tester
+from cantools.errors import Error
 
 __author__ = 'Erik Moqvist'
 
